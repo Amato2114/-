@@ -1,0 +1,25 @@
+{
+  "name": "Резюме Дениса Веретенникова — Директор магазина",
+  "short_name": "Денис Веретенников",
+  "description": "Профессиональное резюме директора магазина с 4+ годами опыта",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0ea5e9",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://static.photos/blue/200x200/123",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://static.photos/blue/200x200/123",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "ru-RU"
+}

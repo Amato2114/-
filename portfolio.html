@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Денис Веретенников — Кейсы директора магазина</title>
+    <meta name="description" content="Реальные кейсы и достижения Дениса Веретенникова: запуск отделения Почты России, рост выручки в X5 Group, оптимизация складских процессов.">
+    <meta name="keywords" content="кейсы директора магазина, портфолио управляющего, розничный ритейл кейсы">
+    
+    <meta property="og:title" content="Портфолио Дениса Веретенникова — Кейсы директора магазина">
+    <meta property="og:description" content="Реальные проекты в розничной торговле, логистике и управлении командами.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://your-domain.com/portfolio.html">
+    
+    <!-- Все остальные мета-теги аналогичны index.html -->
+    <link rel="icon" type="image/x-icon" href="https://static.photos/blue/200x200/123">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900">
+    
+    <portfolio-navbar></portfolio-navbar>
+    
+    <main class="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold text-center mb-8">Портфолио и кейсы</h1>
+            
+            <article class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 mb-8">
+                <h2 class="text-2xl font-bold mb-4 text-primary-600">Кейс: Запуск отделения Почты России с нуля</h2>
+                <div class="prose dark:prose-invert max-w-none">
+                    <p class="mb-4">В июле 2024 года мне была поставлена задача — запустить новое отделение Почты России в Владивостоке за 3 месяца.</p>
+                    <h3 class="text-xl font-semibold mb-2">Что было сделано:</h3>
+                    <ul class="list-disc pl-6 mb-4">
+                        <li>Подбор и обучение команды из 8 сотрудников</li>
+                        <li>Настройка складских процессов и учета</li>
+                        <li>Развитие B2B-направления (договоры с 12 компаниями)</li>
+                    </ul>
+                    <h3 class="text-xl font-semibold mb-2">Результат:</h3>
+                    <p>Выручка в первый месяц работы составила 45 млн руб., что на 25% превысило план.</p>
+                </div>
+            </article>
+            
+            <article class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 mb-8">
+                <h2 class="text-2xl font-bold mb-4 text-primary-600">Кейс: Оптимизация склада в RBT.ru</h2>
+                <p class="mb-4">Снижение потерь товара с 8% до 2% за 6 месяцев.</p>
+                <!-- Добавьте детали кейса -->
+            </article>
+        </div>
+    </main>
+    
+    <footer class="py-12 bg-gray-800 dark:bg-gray-900 text-gray-300">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p>© <span id="currentYear"></span> Денис Веретенников</p>
+        </div>
+    </footer>
+    
+    <script src="/components/navbar.js"></script>
+    <script src="/js/main.js"></script>
+    <script>
+        feather.replace();
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

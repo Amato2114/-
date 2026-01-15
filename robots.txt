@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /portfolio.html
+Disallow: /components/
+Disallow: /css/
+Disallow: /js/
+
+Sitemap: https://your-domain.com/sitemap.xml
